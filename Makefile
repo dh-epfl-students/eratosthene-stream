@@ -5,10 +5,10 @@ MAKE_TYPE:=suite
 MAKE_DBIN:=bin
 MAKE_DDOC:=doc
 MAKE_DLIB:=lib
-MAKE_DSRC:=src
+MAKE_DSRC:=code/src
 MAKE_DOBJ:=obj
 MAKE_DBUILD:=build
-MAKE_SHADERS:=shaders
+MAKE_SHADERS:=code/shaders
 
 MAKE_OSYS:=$(shell uname -s)
 
